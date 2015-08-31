@@ -82,8 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				14E9C54D1B94C93200D9F28D /* AppDelegate.swift */,
-				14E9C5521B94C93200D9F28D /* MasterViewController.swift */,
-				14E9C5541B94C93200D9F28D /* DetailViewController.swift */,
+				14E9C5A51B94D35500D9F28D /* Controller */,
 				14E9C5561B94C93200D9F28D /* Main.storyboard */,
 				14E9C5591B94C93200D9F28D /* Images.xcassets */,
 				14E9C55B1B94C93200D9F28D /* LaunchScreen.xib */,
@@ -116,6 +115,15 @@
 				14E9C5671B94C93200D9F28D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14E9C5A51B94D35500D9F28D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14E9C5521B94C93200D9F28D /* MasterViewController.swift */,
+				14E9C5541B94C93200D9F28D /* DetailViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,6 +427,7 @@
 				14E9C56E1B94C93200D9F28D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14E9C56F1B94C93200D9F28D /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +436,7 @@
 				14E9C5711B94C93200D9F28D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
